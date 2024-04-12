@@ -19,7 +19,7 @@ const MaterialColor primaryWhite = MaterialColor(
 ThemeData theme() {
   return ThemeData(
     primarySwatch: primaryWhite,
-    appBarTheme: const AppBarTheme(
+    appBarTheme: AppBarTheme(
       iconTheme: IconThemeData(color: Colors.blue),
     ),
   );

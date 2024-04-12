@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
 class ProfileHeader extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return Row(
+      // 1
       children: [
         SizedBox(width: 20),
         _buildHeaderAvatar(),

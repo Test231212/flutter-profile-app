@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:profile_app/components/profile_tab.dart';
 import 'package:profile_app/theme.dart';
 
 import 'components/profile_buttons.dart';
 import 'components/profile_count_info.dart';
 import 'components/profile_drawer.dart';
 import 'components/profile_header.dart';
+import 'components/profile_tab.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
+
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -51,4 +51,3 @@ class ProfilePage extends StatelessWidget {
     );
   }
 }
-

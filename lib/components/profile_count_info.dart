@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ProfileCountInfo extends StatelessWidget {
+  const ProfileCountInfo({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -23,9 +24,9 @@ class ProfileCountInfo extends StatelessWidget {
           count,
           style: TextStyle(fontSize: 15),
         ),
-        SizedBox(height: 2,),
+        SizedBox(height: 2),
         Text(
-          count,
+          title,
           style: TextStyle(fontSize: 15),
         ),
       ],
@@ -33,6 +34,6 @@ class ProfileCountInfo extends StatelessWidget {
   }
 
   Widget _buildLine() {
-    return Container(width: 2, height: 60,  color: Colors.blue);
+    return Container(width: 2, height: 60, color: Colors.blue);
   }
 }
